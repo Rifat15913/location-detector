@@ -18,11 +18,11 @@ import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.RecyclerView
 import io.diaryofrifat.code.BaseApplication
-import io.diaryofrifat.code.basemvp.R
-import io.diaryofrifat.code.basemvp.ui.base.callback.ItemClickListener
-import io.diaryofrifat.code.basemvp.ui.base.callback.ItemLongClickListener
-import io.diaryofrifat.code.basemvp.ui.base.component.BaseAdapter
-import io.diaryofrifat.code.basemvp.ui.base.helper.SwipeItemHandler
+import io.diaryofrifat.code.locationdetector.R
+import io.diaryofrifat.code.locationdetector.ui.base.callback.ItemClickListener
+import io.diaryofrifat.code.locationdetector.ui.base.callback.ItemLongClickListener
+import io.diaryofrifat.code.locationdetector.ui.base.component.BaseAdapter
+import io.diaryofrifat.code.locationdetector.ui.base.helper.SwipeItemHandler
 import io.reactivex.Observable
 
 

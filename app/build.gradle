@@ -10,7 +10,7 @@ android {
     buildToolsVersion rootProject.ext.build_tools_version
     
     defaultConfig {
-        applicationId "io.diaryofrifat.code.basemvp"
+        applicationId "io.diaryofrifat.code.locationdetector"
         minSdkVersion rootProject.ext.minimum_sdk_version
         targetSdkVersion rootProject.ext.target_sdk_version
 
@@ -152,10 +152,6 @@ dependencies {
 
     // App data storage
     //debugImplementation 'com.awesomedroidapps:inappstoragereader:1.0.2'
-
-    // Memory leak detector
-    //debugImplementation "com.squareup.leakcanary:leakcanary-android:$rootProject.ext.leak_canary_version"
-    //debugImplementation "com.squareup.leakcanary:leakcanary-support-fragment:$rootProject.ext.leak_canary_version"
 
     // Testing
     testImplementation 'junit:junit:4.12'

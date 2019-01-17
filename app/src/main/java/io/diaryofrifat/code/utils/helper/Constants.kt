@@ -1,6 +1,6 @@
 package io.diaryofrifat.code.utils.helper
 
-import io.diaryofrifat.code.basemvp.R
+import io.diaryofrifat.code.locationdetector.R
 
 class Constants {
     class Default {

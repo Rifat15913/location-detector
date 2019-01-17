@@ -3,8 +3,8 @@ package io.diaryofrifat.code
 import android.content.Context
 import androidx.multidex.MultiDex
 import androidx.multidex.MultiDexApplication
-import io.diaryofrifat.code.basemvp.BuildConfig
-import io.diaryofrifat.code.basemvp.data.BaseRepository
+import io.diaryofrifat.code.locationdetector.BuildConfig
+import io.diaryofrifat.code.locationdetector.data.BaseRepository
 import timber.log.Timber
 
 class BaseApplication : MultiDexApplication() {
@@ -39,10 +39,6 @@ class BaseApplication : MultiDexApplication() {
                         " - Method:${element.methodName} - Line:${element.lineNumber}"
             }
         })
-
-        /*if (!LeakCanary.isInAnalyzerProcess(this)) {
-            LeakCanary.install(this)
-        }*/
     }
 
     private fun initiate(context: Context) {
