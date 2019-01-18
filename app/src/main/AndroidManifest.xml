@@ -7,6 +7,11 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
 
     <application
         android:name="io.diaryofrifat.code.BaseApplication"
@@ -17,7 +22,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="@string/file_provider_authority"
@@ -29,7 +33,7 @@
         </provider>
 
         <activity
-            android:name="io.diaryofrifat.code.locationdetector.ui.main.MainActivity"
+            android:name=".ui.main.MainActivity"
             android:theme="@style/AppTheme.GradientStatusBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +41,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name="com.yalantis.ucrop.UCropActivity"
             android:screenOrientation="portrait"

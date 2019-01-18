@@ -15,6 +15,8 @@
     <string name="error_could_not_crop_image">Could not crop image</string>
     <string name="error_context_is_null">Context is null</string>
     <string name="error_image_uri_is_null">Image Uri is null</string>
+    <string name="error_this_device_does_not_have_google_play_services">This device does not have Google Play Services. Therefore we can\'t detect your location</string>
+    <string name="error_disabled_gps">Sorry we can\'t detect your location due to unavailability of your GPS service</string>
 
     <!--Warning-->
     <string name="warning_permissions_are_required">Permissions are required</string>
@@ -22,4 +24,5 @@
     <!--Demo page-->
     <string name="do_something">Do something</string>
     <string name="pick_photo">Pick photo</string>
+    <string name="title_activity_maps">Map</string>
 </resources>
